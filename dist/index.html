@@ -1,0 +1,202 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Alexeev Portfolio</title>
+</head>
+<body>
+    <div class="grid">
+        <div class="leftSide">
+            <div class="wrapper">
+                <nav class="grid">
+                    <ul>
+                        <li class="leftSideAbout">
+                            <a id="aboutButton" class="about nav-item">About us</a>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </li>
+                        <li class="leftSideWorks">
+                            <a id="worksButton" class="works nav-item">Works</a>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </li>
+                        <li class="leftSideFeedback">
+                            <a id="feedbackButton" class="feedback nav-item">Feedback</a>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mission">
+                    <ul>
+                        <li><p>Design</p></li>
+                        <li><p>Development</p></li>
+                        <li><p>Promotion</p></li>
+                    </ul>
+
+                    <div class="fa">
+                        <a href="https://twitter.com/sokrati_sokrata" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://vk.com/sweetbybaleh" target="_blank">
+                            <i class="fa fa-vk" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/alekseev__andrey/" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="projectNames">
+                    <div class="projectNames-Tofalaria">
+                        <h1>
+                            Tofalaria
+                        </h1>
+                        <p>
+                            My first project.
+                        </p>
+                        <p>
+                            Web site consists from description unique features of tofalaria creams, small catalog and
+                            reviews of clients.
+                        </p>
+                        <p>
+                            <a href="/portfolio/tofalaria">
+                                Original
+                            </a>
+                        </p>
+                    </div>
+                    <div class="projectNames-Rha">
+                        <h1>
+                            RHA
+                        </h1>
+                        <p>
+                            My the most beautiful project.
+                        </p>
+                        <p>
+                            Web site for Canadian Hockey Camp.
+                        </p>
+                        <p>
+                            <a href="/portfolio/rha_lp">
+                                Original
+                            </a>
+                        </p>
+                    </div>
+                    <div class="projectNames-Smartbody">
+                    <h1>
+                        SmartBody
+                    </h1>
+                    <p>
+                        It was a most difficult project.
+                    </p>
+                    <p>
+                        The internet shop with opportunities for clothes ordering and choosing sizes, colors,
+                        additional chek-boxes.
+                    </p>
+                    <p>
+                        <a href="/portfolio/smartbody">
+                            Original
+                        </a>
+                    </p>
+                </div>
+                    <div class="projectNames-Peppertix">
+                        <h1>
+                            Peppertix
+                        </h1>
+                        <p>
+                            It was a most easy project.
+                        </p>
+                        <p>
+                            The company which sales tickets have desided to develop the new web site.
+                        </p>
+                        <p>
+                            <a href="/portfolio/peppertix">
+                                Original
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <p class="logo">Alexeev</p>
+            </div>
+        </div>
+
+        <div class="rightSide">
+
+            <div class="wrapper">
+                <div class="rightAbout">
+                    <h1>
+                        Hello, friends!
+                    </h1>
+                    <p>
+                        My name is Alexeev. Last 3 years I make web sites and IT-services for small and middle businesses.
+                    </p>
+                    <p>
+                        Mostly I use clean JS with HTML5 and CSS3. But for successful development I don't forget about modern
+                        fraimworks. I like React.js best of all. Also I use Gulp, Git, jQuery and Less.
+                    </p>
+                    <p>
+                        My portfolio consits from two projects. There are the best works during two years.
+                    </p>
+                    <p>
+                        Check out my portfolio and visit my socials. Best regards!
+                    </p>
+                </div>
+                <div class="rightWorks">
+                    <div class="wrapper">
+                            <div class="rightWorksBox-Tofa">
+                                <img id="projectTofa" src="projects/project_tofa.png">
+                            </div>
+                            <div class="rightWorksBox-Rha">
+                                <img id="projectRha" src="projects/project_rha.png">
+                            </div>
+                            <div class="rightWorksBox-Smart">
+                                <img id="projectSmart" src="projects/project_smart.png">
+                            </div>
+                            <div class="rightWorksBox-Pepper">
+                                <img id="projectPepper" src="projects/project_pepper.png">
+                            </div>
+                            <div class="rightWorksArrows">
+                                <i class="fa fa-angle-left previousProject" aria-hidden="true" onclick="sliderLeft()"></i>
+                                <p>Next project</p>
+                                <i class="fa fa-angle-right nextProject" aria-hidden="true" onclick="sliderRight()"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="rightFeedback" id="rightResize">
+                    <div class="rightFeedback rightFeedback-name">
+                        <p>Your name</p>
+                        <input type="text" placeholder="James">
+                    </div>
+                    <div class="rightFeedback rightFeedback-mail">
+                        <p>Your email</p>
+                        <input type="email" placeholder="@">
+                    </div>
+                    <div class="rightFeedback rightFeedback-number">
+                        <p>Your number</p>
+                        <input type="number" placeholder="+7">
+                    </div>
+                    <div class="rightFeedback rightFeedback-message">
+                        <p>Message</p>
+                        <textarea placeholder="text here"></textarea>
+                    </div>
+                    <div class="rightFeedback rightFeedback-button">
+                        <input type="button" value="Send">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hollow"></div>
+        
+        <div class="missionEnd">
+            <div class="fa">
+                <a href="https://twitter.com/sokrati_sokrata" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://vk.com/sweetbybaleh" target="_blank">
+                    <i class="fa fa-vk" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/alekseev__andrey/" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="app.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "alexeev-1.0",
+  "version": "1.0.0",
+  "description": "Main portfolio Alexeev Andrey (c)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekseevandreygen/alexeev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alekseevandreygen/alexeev/issues"
+  },
+  "homepage": "https://github.com/alekseevandreygen/alexeev#readme",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
+}
