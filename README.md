@@ -1,3 +1,3 @@
-<strong style="font-size: 30px">Personal portfolio by Alexeev Andrey</strong>
+<h1>Personal portfolio by Alexeev Andrey</h2>
 
-React, Redux
+<p>React, Redux</p>
